@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/book-overflow-site/static/css/main.362ab593.css",
-    "main.js": "/book-overflow-site/static/js/main.68782398.js",
+    "main.css": "/book-overflow-site/static/css/main.46f6d4db.css",
+    "main.js": "/book-overflow-site/static/js/main.8ab2ad22.js",
     "static/media/photo-1.jpg": "/book-overflow-site/static/media/photo-1.250ddb45b565a7cfa4c4.jpg",
     "static/media/poppins-all-400-normal.woff": "/book-overflow-site/static/media/poppins-all-400-normal.6fbfdac99c274b77fe96.woff",
     "static/media/poppins-all-300-normal.woff": "/book-overflow-site/static/media/poppins-all-300-normal.9541f56e25efdc1d8e2d.woff",
@@ -42,11 +42,11 @@
     "static/media/quote.svg": "/book-overflow-site/static/media/quote.6ac304acdf9c38e242b9feec3c7e1f49.svg",
     "index.html": "/book-overflow-site/index.html",
     "static/media/scroll-icon.svg": "/book-overflow-site/static/media/scroll-icon.7df0c0b7d3449f67ceb35e312d834bc8.svg",
-    "main.362ab593.css.map": "/book-overflow-site/static/css/main.362ab593.css.map",
-    "main.68782398.js.map": "/book-overflow-site/static/js/main.68782398.js.map"
+    "main.46f6d4db.css.map": "/book-overflow-site/static/css/main.46f6d4db.css.map",
+    "main.8ab2ad22.js.map": "/book-overflow-site/static/js/main.8ab2ad22.js.map"
   },
   "entrypoints": [
-    "static/css/main.362ab593.css",
-    "static/js/main.68782398.js"
+    "static/css/main.46f6d4db.css",
+    "static/js/main.8ab2ad22.js"
   ]
 }
