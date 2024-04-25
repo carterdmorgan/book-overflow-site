@@ -10,6 +10,8 @@ import '@fontsource/poppins/600.css';
 import '@fontsource/poppins/700.css';
 import '@fontsource/poppins/800.css';
 import '@fontsource/poppins/900.css';
+import Landing from '../pages/landing';
+import Navbar from '../components/Navbar';
 
 // Styles
 import 'bootstrap/dist/css/bootstrap-grid.css';
@@ -36,7 +38,8 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <RouterProvider router={router} />
+        <Navbar isLanding={true}></Navbar>
+        <Landing></Landing>
       </Layout>
     </div>
   );

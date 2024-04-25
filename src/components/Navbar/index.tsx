@@ -61,33 +61,25 @@ function Navbar({ isLanding }: NavbarProps) {
         </div>
         <div className="nav-container">
           {/* Home Link */}
-          <RouterLink
-            className="site-title slow-scroll"
-            to={navData.homeLink.to}
-            onClick={handleLinkClick}>
+          <div
+            className="site-title slow-scroll">
             BOOK OVERFLOW
-          </RouterLink>
+          </div>
 
           {/* Navigation Links */}
           <nav className="nav-menu">
             <ul className="nav-list">
               {navData.navLinks.map((link, i) => (
                 <li key={'nav-' + i}>
-                  {isLanding ? (
-                    <ScrollLink
-                      activeClass="current"
-                      smooth
-                      spy
-                      to={link.to}
-                      onClick={handleLinkClick}
-                      onSetActive={() => handleActive(i + 1)}>
-                      {link.text}
-                    </ScrollLink>
-                  ) : (
-                    <RouterLink to="/" onClick={handleLinkClick}>
-                      {link.text}
-                    </RouterLink>
-                  )}
+                  <ScrollLink
+                    activeClass="current"
+                    smooth
+                    spy
+                    to={link.to}
+                    onClick={handleLinkClick}
+                    onSetActive={() => handleActive(i + 1)}>
+                    {link.text}
+                  </ScrollLink>
                 </li>
               ))}
             </ul>
