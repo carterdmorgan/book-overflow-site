@@ -14,8 +14,6 @@
   justify-content: flex-end;
   position: relative;
   height: 100%;
-  overflow-x: hidden;
-  box-sizing: border-box;
 }
 
 #home .main-photo {
@@ -158,8 +156,13 @@
 }
 
 @media (max-width: 575px) {
+  #home {
+    overflow-x: hidden; /* Ensure no horizontal scrolling within #home */
+  }
+
   #home .main-photo {
-    max-width: 85%;
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    width: 85%; /* Scale the image to 85% of its container */
   }
 
   #home .entry-title {
