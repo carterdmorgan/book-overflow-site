@@ -97,8 +97,8 @@ function Portfolio() {
         <SocialIcon bgColor="black" network="linkedin" url="https://www.linkedin.com/in/cartermorgan/" className="icon-margin"/>
       </div>
       <div className="section-des">
-        <h3>Matt Youngberg</h3>
-        <SocialIcon bgColor="black" network="linkedin" url="https://www.linkedin.com/in/mattyoungberg/" className="icon-margin"/>
+        <h3>Nathan Toups</h3>
+        <SocialIcon bgColor="black" network="linkedin" url="https://www.linkedin.com/in/nathan-toups/" className="icon-margin"/>
       </div>
       {/* <div id="portfolio-wrapper" className="relative block-right">
         {portfolioItem === 0 ? (

@@ -26,14 +26,16 @@ function About() {
           by discussing the best technical books in the world.
         </p>
         <p>
-          Co-hosts Carter Morgan and Matt Youngberg are professional software engineers with combined experience at 
+          Co-hosts Carter Morgan and Nathan Toups are professional software engineers with combined experience at 
           both nimble startups and some of the largest companies in the world. Join them and a series of guests as they 
           discuss new tech books every week!
         </p>
         <p>
-          <a href="www.homestarrunner.com">Spotify</a>
+          <a href="https://open.spotify.com/show/5kj6DLCEWR5nHShlSYJI5L?si=b3ee969d69934dad">Spotify</a>
           <br></br>
-          <a href="www.homestarrunner.com">Apple Podcasts</a>
+          <a href="https://podcasts.apple.com/us/podcast/book-overflow/id1745257325">Apple Podcasts</a>
+          <br></br>
+          <a href="https://anchor.fm/s/f5bbb69c/podcast/rss">RSS Feed</a>
         </p>
       </div>
 
