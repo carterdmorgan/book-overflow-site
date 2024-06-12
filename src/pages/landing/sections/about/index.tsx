@@ -35,6 +35,8 @@ function About() {
           <br></br>
           <a href="https://podcasts.apple.com/us/podcast/book-overflow/id1745257325">Apple Podcasts</a>
           <br></br>
+          <a href="https://www.youtube.com/@BookOverflowPod">YouTube</a>
+          <br></br>
           <a href="https://anchor.fm/s/f5bbb69c/podcast/rss">RSS Feed</a>
         </p>
       </div>

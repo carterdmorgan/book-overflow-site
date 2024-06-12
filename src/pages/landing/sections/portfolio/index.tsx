@@ -98,6 +98,7 @@ function Portfolio() {
       </div>
       <div className="section-des">
         <h3>Nathan Toups</h3>
+        <SocialIcon bgColor="black" network="youtube" url="https://www.youtube.com/@funcimp" className="icon-margin"/>
         <SocialIcon bgColor="black" network="linkedin" url="https://www.linkedin.com/in/nathan-toups/" className="icon-margin"/>
       </div>
       {/* <div id="portfolio-wrapper" className="relative block-right">
