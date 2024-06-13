@@ -2,6 +2,15 @@
     8. Skills Section CSS
 ====================================== */
 
+.schedule-iframe {
+  width: 90%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-right: 10px;
+  height: 300px;
+}
+
 .skills-history {
   background-color: #0810F5;
   color: #fff;

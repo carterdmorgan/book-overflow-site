@@ -20,6 +20,10 @@
     {
       "to": "contact",
       "text": "Contact"
+    },
+    {
+      "to": "skills",
+      "text": "Schedule"
     }
   ],
   "footLinks": [

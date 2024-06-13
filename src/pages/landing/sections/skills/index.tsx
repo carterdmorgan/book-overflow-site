@@ -34,8 +34,10 @@ function Skills() {
 
   return (
     <section id="skills" className="section">
-      <h2 className="title">{skillsData.title}</h2>
-      <div className="section-des">{skillsData.description}</div>
+      <h2 className="title">SCHEDULE</h2>
+      <p>We'd love for you to follow along as we read the best technical books in the world!</p>
+      <iframe className='schedule-iframe' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhXNaam4g6FYuH-60ijkqTtXIRoHlSKjMiS1MN-RUh-IuxHpcjwmUDtSf3zZyh9Fb4OMA3CYZloUuJ/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+      {/* <div className="section-des">{skillsData.description}</div>
       <p
         className="content-670"
         dangerouslySetInnerHTML={{
@@ -67,7 +69,7 @@ function Skills() {
             </div>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </section>
   );
 }
