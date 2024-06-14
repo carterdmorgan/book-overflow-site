@@ -1,6 +1,13 @@
 // Images
 import aboutImage from '../../../../assets/images/about/about-img.jpg';
 import signature from '../../../../assets/images/about/signature.svg';
+import spotifyBadge from '../../../../assets/images/podcast-icons/spotify-badge.svg'
+import applePodcastsBadge from '../../../../assets/images/podcast-icons/applepodcasts-badge.svg'
+import youtubeBadge from '../../../../assets/images/podcast-icons/youtube-badge.svg'
+import rssBadge from '../../../../assets/images/podcast-icons/rss-badge.svg'
+import pocketCastsBadge from '../../../../assets/images/podcast-icons/pocketcasts-badge.svg'
+import overcastBadge from '../../../../assets/images/podcast-icons/overcast-badge.svg'
+import castboxBadge from '../../../../assets/images/podcast-icons/castbox-badge.svg'
 
 // Styles
 import './style.css';
@@ -30,15 +37,29 @@ function About() {
           both nimble startups and some of the largest companies in the world. Join them and a series of guests as they 
           discuss new tech books every week!
         </p>
-        <p>
-          <a href="https://open.spotify.com/show/5kj6DLCEWR5nHShlSYJI5L?si=b3ee969d69934dad">Spotify</a>
-          <br></br>
-          <a href="https://podcasts.apple.com/us/podcast/book-overflow/id1745257325">Apple Podcasts</a>
-          <br></br>
-          <a href="https://www.youtube.com/@BookOverflowPod">YouTube</a>
-          <br></br>
-          <a href="https://anchor.fm/s/f5bbb69c/podcast/rss">RSS Feed</a>
-        </p>
+        <div className="flex-container">
+          <a href="https://open.spotify.com/show/5kj6DLCEWR5nHShlSYJI5L?si=b3ee969d69934dad">
+            <img src={spotifyBadge} alt="Spotify Badge" />
+          </a>
+          <a href="https://podcasts.apple.com/us/podcast/book-overflow/id1745257325">
+            <img src={applePodcastsBadge} alt="Apple Podcasts Badge" />
+          </a>
+          <a href="https://www.youtube.com/@BookOverflowPod">
+            <img src={youtubeBadge} alt="YouTube Badge" />
+          </a>
+          <a href="https://pca.st/k05cg29o">
+            <img src={pocketCastsBadge} alt="Pocket Casts Badge" />
+          </a>
+          <a href="https://overcast.fm/itunes1745257325/book-overflow">
+            <img src={overcastBadge} alt="Overcast Badge" />
+          </a>
+          <a href="https://castbox.fm/channel/id6174835">
+            <img src={castboxBadge} alt="Castbox Badge" />
+          </a>
+          <a href="https://anchor.fm/s/f5bbb69c/podcast/rss">
+            <img src={rssBadge} alt="RSS Badge" />
+          </a>
+        </div>
       </div>
 
       {/* <img

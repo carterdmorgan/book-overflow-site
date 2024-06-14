@@ -26,6 +26,19 @@ version 1.1
     5. About Section CSS
 ====================================== */
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between items as needed */
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.flex-container a {
+  flex: 1 1 auto; /* Adjust the basis as needed */
+  display: flex;
+  align-items: center;
+}
+
 .about-img {
   max-width: 100%;
   display: block;
