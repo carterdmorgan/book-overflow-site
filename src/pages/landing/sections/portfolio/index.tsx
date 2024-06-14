@@ -89,7 +89,7 @@ function Portfolio() {
       <div className="section-des">
         <h3>Book Overflow</h3>
         <SocialIcon bgColor="black" network="twitter" url="https://twitter.com/bookoverflowpod" className="icon-margin"/>
-        <SocialIcon bgColor="black" network="instagram" url="https://instagram.com/bookoverflow" className="icon-margin"/>
+        <SocialIcon bgColor="black" network="instagram" url="https://instagram.com/bookoverflowpod" className="icon-margin"/>
       </div>
       <div className="section-des">
         <h3>Carter Morgan</h3>
