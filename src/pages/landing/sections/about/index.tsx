@@ -28,8 +28,7 @@ function About() {
 
       <div className="content-670">
         <p>
-          In a world increasingly dominated by short-form content, it's important to engage with long-form ideas. 
-          Book Overflow is a podcast dedicated to helping software engineers improve their careers and technical expertise 
+          Book Overflow is a podcast dedicated to helping software engineers improve their craft and careers 
           by discussing the best technical books in the world.
         </p>
         <p>
@@ -38,14 +37,14 @@ function About() {
           discuss new tech books every week!
         </p>
         <div className="flex-container">
+          <a href="https://www.youtube.com/@BookOverflowPod">
+            <img src={youtubeBadge} alt="YouTube Badge" />
+          </a>
           <a href="https://open.spotify.com/show/5kj6DLCEWR5nHShlSYJI5L?si=b3ee969d69934dad">
             <img src={spotifyBadge} alt="Spotify Badge" />
           </a>
           <a href="https://podcasts.apple.com/us/podcast/book-overflow/id1745257325">
             <img src={applePodcastsBadge} alt="Apple Podcasts Badge" />
-          </a>
-          <a href="https://www.youtube.com/@BookOverflowPod">
-            <img src={youtubeBadge} alt="YouTube Badge" />
           </a>
           <a href="https://pca.st/k05cg29o">
             <img src={pocketCastsBadge} alt="Pocket Casts Badge" />
