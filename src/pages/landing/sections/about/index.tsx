@@ -34,7 +34,7 @@ function About() {
         <p>
           Co-hosts Carter Morgan and Nathan Toups are professional software engineers with combined experience at 
           both nimble startups and some of the largest companies in the world. Join them and a series of guests as they 
-          discuss new tech books every week!
+          discuss new tech books every Monday!
         </p>
         <div className="flex-container">
           <a href="https://www.youtube.com/@BookOverflowPod">
