@@ -17,7 +17,7 @@ function Home() {
     <section id="home" className="section">
       <div className="container-wrap">
         <h1 className="entry-title">
-          Discussing new tech books every week!
+          Discussing new tech books every Monday!
         </h1>
         <img
           className="main-photo block-right"
