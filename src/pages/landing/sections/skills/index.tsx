@@ -36,7 +36,7 @@ function Skills() {
     <section id="skills" className="section">
       <h2 className="title">SCHEDULE</h2>
       <p>We'd love for you to follow along as we read the best technical books in the world!</p>
-      <iframe className='schedule-iframe' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhXNaam4g6FYuH-60ijkqTtXIRoHlSKjMiS1MN-RUh-IuxHpcjwmUDtSf3zZyh9Fb4OMA3CYZloUuJ/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+      <iframe className='schedule-iframe' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2lI3FoLSjpIB7aKpUNupCwD9u3dYA3oDMmlHU738bomgXNtl30oRjKNPhcgx7gPszysoFbcnXW48H/pubhtml?widget=true&amp;headers=false"></iframe>
       <p>(All Amazon links are paid affiliate links. We earn from qualifying purchases.)</p>
       {/* <div className="section-des">{skillsData.description}</div>
       <p
